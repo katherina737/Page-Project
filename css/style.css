@@ -133,7 +133,7 @@ p{
 
 /* ------------------------responsivness--------------------------------------- */
 
-@media (min-width:481px) and (max-width: 1200px){
+@media (min-width:470px) and (max-width: 1200px){
     .nav-item{
         margin-right: 0px; 
         font-size: 20px;   
