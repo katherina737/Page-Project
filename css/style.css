@@ -133,19 +133,19 @@ p{
 
 /* ------------------------responsivness--------------------------------------- */
 
-@media (min-width:470px) and (max-width: 1200px){
+@media (max-width: 480px){
     .nav-item{
         margin-right: 0px; 
         font-size: 20px;   
     }
     .firstimage{
-        height: 50%;
+        height: 45%;
         position: absolute;
         width: 95%;
         margin-top: 20px;
         margin-left: 20px;    
     }
-
+      
     .welcome{
         font-family: 'Roboto', sans-serif;
         font-size: 40px;
@@ -157,16 +157,17 @@ p{
         position: relative;
         display: flex;
         justify-content: center;
-        margin-top: 200px;
+        margin-top: 150px;
     } 
 
     .developer{
         font-family: 'Roboto', sans-serif;
-        font-size: 30px;
+        font-size: 18px;
+        text-align: center;
     }
 
     .my-section{
-        padding-top: 200px;
+        padding-top: 100px;
         padding-bottom: 100px;
         display: flex;
         justify-content: center;
@@ -177,13 +178,24 @@ p{
         margin-left: 10px;
         width: 95%;
     }
+    .headers{
+        font-size: 30px;
+        text-align: center;
+        padding-left: 150px;
+    }
+    .pictures{
+        margin-right: 200px;
+        height: 70%;
+        width: 70%;
+    }
 
     .skills{
         background-color: #CDC2AE;
-        padding-top: 80px;
+        width: 100%;
+        padding-top: 60px;
         padding-bottom: 40px;
         padding-left: 10%; 
-        padding-right: 10%;
+        /* padding-right: 10%; */
         margin-bottom: 100px; 
     }
 }
