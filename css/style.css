@@ -1,7 +1,3 @@
-/* .gradient-background {
-    background: linear-gradient(300deg, #3F2305, #DFD7BF, #675D50);
-    background-size: 180% 180%;
-  } */
 #menu{
     background-color: #C2DEDC; 
     width: 100%;
@@ -190,7 +186,6 @@ p{
         padding-left: 180px;
     }
     .feature-icon,.pictures{
- 
         height: 200px;
         width: 300px;
     }
@@ -217,9 +212,7 @@ p{
     }
 }
 
-
-
-@media (min-width: 1201px) and (max-width:1800px){
+@media (min-width: 482px) and (max-width:1200px){
     .nav-item{
         margin-right: 0px; 
         font-size: 20px;   
@@ -228,54 +221,81 @@ p{
         height: 50%;
         position: absolute;
         width: 95%;
-        height:auto;
         margin-top: 20px;
-        margin-left: 20px;         
+        margin-left: 2%;    
+        margin-right: 2%;
     }
-
+    #feature-box{
+        margin-left: 0%;
+        margin-bottom: 10%;
+    }
+      
     .welcome{
         font-family: 'Roboto', sans-serif;
-        font-size: 40px;
+        font-size: 30px;
         font-weight: bolder;
         text-align: center;
-        margin-top: 140px;
-        margin-left: 20px;  
     }
 
     #greeting{
         position: relative;
         display: flex;
         justify-content: center;
-        margin-top: 200px;
+        margin-top: 180px;
     } 
 
     .developer{
         font-family: 'Roboto', sans-serif;
-        font-size: 30px;
+        font-size: 20px;
+        text-align: center;
     }
-
     .my-section{
-        padding-top: 300px;
-        padding-bottom: 100px;
+        padding-top: 25%;
+        padding-bottom: 15%;
         display: flex;
         justify-content: center;
         align-content: center;
+        align-items: center;
     }
-
+    
     #thecontainer{
         margin-left: 10px;
         width: 95%;
     }
+    .headers{
+        font-size: 30px;
+        text-align: center;
+        padding-left: 180px;
+    }
+    .feature-icon,.pictures{
+        height: 300px;
+        width: 400px;
+    }
+    .headers2{
+        font-size: 30px;
+    }
+    #name{
+        font-size: 15px;
+        
+    }
+    .nav-item{
+        margin-right: 40px;
+    }
 
     .skills{
         background-color: #CDC2AE;
-        padding-top: 80px;
+        width: 100%;
+        padding-top: 60px;
         padding-bottom: 40px;
-        padding-left: 30%; 
-        padding-right: 30%;
+        /* padding-left: 10%; 
+        padding-right: 10%; */
+        text-align: center;
         margin-bottom: 100px; 
     }
 }
+
+
+
 
 
 
