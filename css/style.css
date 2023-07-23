@@ -146,6 +146,10 @@ p{
         margin-left: 10px;    
         margin-right: 10px;
     }
+    #feature-box{
+        margin-left: 0%;
+        margin-bottom: 10%;
+    }
       
     .welcome{
         font-family: 'Roboto', sans-serif;
@@ -173,6 +177,7 @@ p{
         display: flex;
         justify-content: center;
         align-content: center;
+        align-items: center;
     }
 
     #thecontainer{
@@ -189,7 +194,16 @@ p{
         height: 200px;
         width: 300px;
     }
- 
+    .headers2{
+        font-size: 30px;
+    }
+    #name{
+        font-size: 15px;
+        
+    }
+    .nav-item{
+        margin-right: 40px;
+    }
 
     .skills{
         background-color: #CDC2AE;
